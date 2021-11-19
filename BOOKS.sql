@@ -53,7 +53,27 @@ WHERE Name LIKE '%'+@search+'%'  OR FullName LIKE '%'+@search+'%' OR Id LIKE '%'
 EXEC USP_ALLBOOKS 'SAMIR'
 
 
-CREATE PROCEDURE USP_UPTADE
+CREATE PROCEDURE USP_UPDATE_BOOKS   
+AS
+UPDATE Books
+SET Name='ELSHAD'
+WHERE Books.Id=1
+
+SELECT * FROM VW_AllBooks
+EXEC USP_UPDATE_BOOKS
+
+
+CREATE PROCEDURE USP_INSERT_BOOKS
+AS
+INSERT INTO Books
+VALUES
+('ALADDIN',2,20)
+
+SELECT * FROM VW_AllBooks
+EXEC USP_INSERT_BOOKS
+
+
+
 
 
 CREATE PROCEDURE USP_DeleteProductsByName
@@ -63,6 +83,14 @@ DELETE FROM Authors WHERE Name<@mimName
 DELETE FROM Books WHERE Name<@mimName
 
 SELECT * FROM VW_AllBooks
-EXEC USP_DeleteProductsByName 'AGA'
+EXEC USP_DeleteProductsByName 'AGA MUSTAFAYEV'
 
+
+CREATE VIEW VW_AUTHORS
+AS
+SELECT  B.PageCount AS BooksCount,MAX(B.PageCount) AS MaxPageCount ,(Authors.Name+' '+Authors.Surname) AS FullName FROM Authors
+JOIN Books AS B ON B.AuthorId=Authors.Id
+
+
+SELECT * FROM VW_AUTHORS
 
