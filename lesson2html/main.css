@@ -1,0 +1,46 @@
+h1 {
+
+color: greenyellow;
+
+}
+* {
+    font-family: 'Outfit', sans-serif;
+margin: 0px;
+padding: 0px;
+
+
+}
+a
+{
+display: inline;
+background-attachment: none;
+padding: 20px;
+color: white;
+text-decoration: none;
+}
+.firstdiv
+{
+background-color: black;
+color: white;
+padding: 30px;
+}
+.seconddiv
+{
+padding: 30px;
+font-size: 25px;
+}
+img {
+
+    display: inline;
+}
+.bottom-left {
+    position: center;
+    bottom: 8px;
+    left: 16px;
+    display: inline-img;
+  }
+  .container {
+    position: relative;
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
