@@ -1,0 +1,14 @@
+.title h1 {
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+}
+.title h1::before {
+    position: absolute;
+    left:  895px;
+    content: "";
+    width: 65px;
+    height: 4px;
+    background-color: #2393d5;
+    bottom: -5px;
+}
