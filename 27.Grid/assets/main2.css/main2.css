@@ -1,0 +1,52 @@
+body
+{
+    background-color: #f8fbfa;
+    font-family: 'Poppins', sans-serif;
+}
+
+a
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.color1
+{
+    background-color: white;
+}
+.container
+{
+    margin-bottom: 300px;
+}
+
+a:hover
+{
+
+    color: #13c4a1;
+
+}
+p
+{
+    color: #4a6f8a;
+}
+i
+{
+    display: block;
+    font-size: 30px;
+    color: #13c4a1;
+    background-color:#f6f4fd ;
+    height: 60px;
+    line-height: 500px;
+    width: 50px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10px;
+ border-radius: 50%;
+    text-align: center;
+
+}
+
+
+
+

@@ -1,0 +1,130 @@
+.default-btn {
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #080a3c;
+    margin-left: 90px;
+}
+
+a {
+    text-decoration: none;
+}
+ @keyframes example {
+    from {
+        background-color: #080a3c;
+    }
+
+    to {
+        background-color: #13c4a1;
+    }
+} 
+
+.text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+    background-color: rgb(248, 248, 248);
+
+
+}
+
+.about {
+    text-align: center;
+}
+.about h4{
+    padding-top: 20px;
+}
+
+p {
+    margin: 25px;
+    padding: 2px;
+
+}
+
+.icon {
+    display: inline;
+    color: tomato;
+}
+
+.icons {
+    display: inline;
+    color: greenyellow;
+}
+
+.date1 {
+    text-align: center;
+    background-color: #080a3c;
+    padding: 10px 30px 10px 53px;
+    position: relative;
+    margin-left: -1px;
+    margin-right: -1px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    border-radius: 30px 0 0 30px;
+    color: white;
+}
+
+.date2
+{
+    display: inline;
+   text-align: center;
+    border-radius: 0 30px 30px 0;
+    background-color: #fff;
+    padding: 10px 30px 10px 53px;
+    position: relative;
+    margin-left: -1px;
+    margin-right: -1px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.color1
+{
+    color: white;
+}
+.color2
+{
+    color: #8d8fb4;
+
+}
+.containerdate
+{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.text
+{font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.info
+{
+    background-color: white;
+    margin-left: 8px;
+}
+.alba{
+    margin: 5px;
+}
+.containerbutton
+{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 35px;
+}
+.button:hover
+{
+    text-decoration: none;
+    background-color: #13c4a1;
+}
+

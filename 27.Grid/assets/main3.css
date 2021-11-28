@@ -1,0 +1,50 @@
+.playback
+{
+    background-color: #fd7e14;
+}
+
+i{
+    color: white;
+}
+.video-box
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: #ff612f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 60px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  300px;t
+    
+    
+}
+
+
+
+
+
+.video-box, .playback ::after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    border: 1px solid #ff612f;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
